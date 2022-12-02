@@ -8,3 +8,8 @@ margin-left: 50%;
 .nav-link{
     font-size: 1.5rem;
 } */
+
+#section1{
+    height: 50%;
+    background-image: url(background1);
+}
