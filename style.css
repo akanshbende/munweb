@@ -65,8 +65,43 @@ margin-left: 50%;
 .wrapper3{
     width: 90%;
     height: 90%;
-    background-color: #fff;
-    border-radius: 15px;
+    /* background-color: #fff; */
+    /* border-radius: 15px;
+    border: 2px solid #fff;
     box-shadow: 5px 10px 10px rgba(0,0,0,0.5),
-    10px 15px 20px #000;
+    10px 15px 20px #000; */
+}
+.aboutus{
+    text-align: center;
+    color: #fff;
+    font-family: 'Poppins';
+    letter-spacing: 5px;
+    margin-bottom: 2rem;
+}
+.about1,.about2,.about3{
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 30px;
+    
+}
+/* .about2{
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 30px;
+} */
+#section4{
+    height:500px;
+    width: 100vw;
+    background-image: url(images\Background\mun.jpeg);
+    background-attachment: fixed;
+     /* background-repeat: no-repeat;
+    background-size: cover;  */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.wrapper4{
+    width: 90%;
+    height: 90%;
+
 }
