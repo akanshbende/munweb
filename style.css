@@ -10,6 +10,7 @@ margin-left: 50%;
 } */
 
 #section1{
-    height: 50%;
-    background-image: url(background1);
+    height:760px;
+    width: 760px;
+    background-image: url(images\Background\background1.jpg);
 }
