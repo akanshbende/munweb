@@ -36,20 +36,37 @@ margin-left: 50%;
     /* align-content: center; */
     text-align: center;
     z-index: 5;
-    color: rgba(255, 255, 255, 0.628);
+    color: #ffdd01;
     filter: drop-shadow(5px 5px 5px hsl(0deg 0% 0% /0.5));
 }
 .moto1 {
     font-size: 1em;
     letter-spacing: 4px;
     z-index: 10;
-    color: rgb(255, 255, 255);
+    color: #fff;
     filter: drop-shadow(5px 5px 5px hsl(0deg 0% 0% /0.6));
 }
 
 #section2{
-    height:760px;
+    height:auto;
     width: 100vw;
     background-attachment: fixed;
    
+}
+
+#section3{
+    height:500px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d051c;
+}
+.wrapper3{
+    width: 90%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 5px 10px 10px rgba(0,0,0,0.5),
+    10px 15px 20px #000;
 }
