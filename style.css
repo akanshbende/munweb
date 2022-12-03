@@ -47,23 +47,26 @@ margin-left: 50%;
     filter: drop-shadow(5px 5px 5px hsl(0deg 0% 0% /0.6));
 }
 .navbar-custom {
-    background-color: rgba(0, 7, 39, 0.8);
+    background-color: rgba(203, 203, 203, 0.8);
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(41, 40, 40, 0.8);
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(41, 40, 40, 0.8);
 }
 .navbar-toggler{
+    color:#fff;
+}
+/* .navbar-toggler{
     background-color: #fff;
 }
 .navbar-toggler-icon{
     background-color: aqua;
-}
+} */
 
 
 
@@ -71,7 +74,7 @@ margin-left: 50%;
     height:auto;
     width: 100vw;
     background-attachment: fixed;
-   
+   box-shadow: 0px 20px 25px rgba(255, 255, 255, 0.5);
 }
 
 #section3{
@@ -112,38 +115,26 @@ margin-left: 50%;
 #section4{
     height:500px;
     width: 100vw;
-    background-image: url(images\Background\mun.jpeg);
-    background-attachment: fixed;
-     /* background-repeat: no-repeat;
-    background-size: cover;  */
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+    background-image: url(images\Background\mun.jpeg);
+}
+#section4 img{
+background-size: cover;
+
 }
 .wrapper4{
-    width: 90%;
-    height: 90%;
+    position: absolute;
+  /* width: 100%;
+  height: 100%; */
+  height:500px;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(1px);
+
+
 
 }
 
-#section4{
-    height:300px;
-    width: 100vw;
-    /* background-image: url(images\Background\background1.jpg); */
-    /* background-repeat: no-repeat;
-    background-size: cover;  */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: #0d051c; */
-    /* margin-bottom: 2rem; */
-    background-image: url(images\Background\GIRA.jpg);
-    
-}
-.wrapper4 {
-   
-    align-items: center;
-    justify-content: center;
- 
-}
 
