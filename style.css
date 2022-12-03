@@ -46,6 +46,26 @@ margin-left: 50%;
     color: #fff;
     filter: drop-shadow(5px 5px 5px hsl(0deg 0% 0% /0.6));
 }
+.navbar-custom {
+    background-color: rgba(0, 7, 39, 0.8);
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255, 255, 255, 0.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+.navbar-toggler{
+    background-color: #fff;
+}
+.navbar-toggler-icon{
+    background-color: aqua;
+}
+
+
 
 #section2{
     height:auto;
