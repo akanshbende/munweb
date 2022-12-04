@@ -59,7 +59,7 @@ margin-left: 50%;
 .navbar-toggler {
   color: #fff;
 }
-
+/*----------------------------------section 2----------------------------------------*/
 #section2 {
   height: auto;
   width: 100vw;
@@ -67,7 +67,7 @@ margin-left: 50%;
   background-attachment: fixed;
   box-shadow: 0px 20px 25px rgba(255, 255, 255, 0.5);
 }
-
+/************************************** section 3 *****************************************/
 #section3 {
   height: 600px;
   width: 100vw;
@@ -107,6 +107,8 @@ margin-left: 50%;
     letter-spacing: 1px;
     line-height: 30px;
 } */
+
+/*-------------------------------------section 4*----------------------------------------------*/
 #section4 {
   height: 600px;
   width: 100vw;
@@ -136,7 +138,7 @@ margin-left: 50%;
   /* text-shadow: 5px 10px 5px solid black; */
 }
 
-/*------------------------------------------------------------*/
+/*------------------------- -----------------------------------*/
 .row {
   align-items: stretch;
   display: flex;
@@ -163,7 +165,7 @@ margin-left: 50%;
   font-family: "Poppins";
 }
 
-/* -------------------------------------------------*/
+/* -------------------------------SECTION 5----------------------------------*/
 
 #section5 {
   width: 100vw;
@@ -186,7 +188,7 @@ margin-left: 50%;
   color: #ffdd01;
 }
 .wrapper5 .card {
-  margin: 1rem;
+  margin: 0.8rem;
 }
 
 /*--------------------------footer--------------------------------*/
