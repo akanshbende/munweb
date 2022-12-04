@@ -191,6 +191,26 @@ margin-left: 50%;
   margin: 0.8rem;
 }
 
+/*=========================== SECTION 6============================*/
+#section6 {
+  width: 100vw;
+  height: 600px;
+  background-image: url(images\Background\contact1.jpg);
+}
+.contact-title {
+  text-align: center;
+  padding: 1rem;
+}
+.fa-map-location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-side {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
 /*--------------------------footer--------------------------------*/
 .bottom {
   padding: 1rem;
