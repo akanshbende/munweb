@@ -190,16 +190,16 @@ margin-left: 50%;
 }
 
 /*--------------------------footer--------------------------------*/
-.sticky-bottom {
+.bottom {
   padding: 1rem;
   background-color: #0d051c;
 }
-.sticky-bottom span {
+.bottom span {
   margin-bottom: 1em;
   display: flex;
   align-items: center;
 }
-.sticky-bottom span h1 {
+.bottom span h1 {
   font-size: 2.5rem;
   padding-left: 0.5rem;
   color: #fff;
