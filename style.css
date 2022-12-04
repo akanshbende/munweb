@@ -130,9 +130,9 @@ margin-left: 50%;
   margin: 1rem;
   letter-spacing: 1.5px;
   text-align: center;
-  color: antiquewhite;
+  color: #fff;
   font-family: "Poppins";
-  font-size: 2rem;
+  font-size: 3rem;
   /* text-shadow: 5px 10px 5px solid black; */
 }
 
@@ -172,12 +172,19 @@ margin-left: 50%;
   background-image: url("images\Background\mun-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #0d051c;
 }
 /* .wrapper5 {
   position: absolute;
 } */
 .achiv-title {
+  font-size: 3rem;
   text-align: center;
   font-family: "poppins";
-  margin: 1.5rem;
+  /* margin: 1.5rem; */
+  padding-top: 1rem;
+  color: #ffdd01;
+}
+.wrapper5 .card {
+  margin: 1rem;
 }
