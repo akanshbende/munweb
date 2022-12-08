@@ -189,7 +189,7 @@ margin-left: 50%;
   background-image: url("images\Background\mun-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #0d051c;
+  background-color: #ffb700;
 }
 /* .wrapper5 {
   position: absolute;
@@ -200,12 +200,24 @@ margin-left: 50%;
   font-family: "poppins";
   /* margin: 1.5rem; */
   padding-top: 1rem;
-  color: #ffdd01;
+  color: #0d051c;
+  filter: drop-shadow(5px 5px 5px hsl(0deg 0% 0% /0.6));
 }
 .wrapper5 .card {
   margin: 0.8rem;
 }
-
+/* .wrapper5 .row {
+  padding-bottom: 20px;
+} */
+#section5 .card {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  background-color: #0d051c;
+  color: #fff;
+  margin-bottom: 20px;
+}
+/* #section5 .card-img-top img {
+  border-radius: 5px;
+} */
 /*=========================== SECTION 6============================*/
 #section6 {
   width: 100vw;
@@ -218,7 +230,7 @@ margin-left: 50%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 95%;
+  height: 100%;
   color: #fff;
 }
 .contact-us {
