@@ -121,7 +121,7 @@ margin-left: 50%;
 } */
 /************************************** section 3 *****************************************/
 #section3 {
-  height: 500px;
+  height: 600px;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -131,8 +131,9 @@ margin-left: 50%;
   background-size: cover;
 }
 .wrapper3 {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: max-content;
+  padding: 1rem;
   /* background-color: #fff; */
   /* border-radius: 15px;
     border: 2px solid #fff;
