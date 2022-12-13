@@ -29,11 +29,14 @@ margin-left: 50%;
 .wrapper1 {
   height: 60%;
   width: 100%;
-  background-image: url(logo_bg.png);
+  /* background-image: url(logo_bg.png); */
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
   justify-content: center;
+}
+.wrapper1 img {
+  width: 100%;
 }
 /* .main-title {
   margin: 1rem;
