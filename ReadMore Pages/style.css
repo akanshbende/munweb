@@ -1,0 +1,43 @@
+section {
+  height: max-content;
+  width: 100vw;
+  background-color: #0d051c;
+}
+
+.wrapper {
+  color: #fff;
+  padding: 1rem;
+  height: max-content;
+}
+.main-title {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about1 {
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 28px;
+  font-weight: 100;
+}
+
+.goals {
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 30px;
+  font-weight: 100;
+}
+ul li {
+  color: #fff;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  font-weight: 100;
+  margin: 1rem;
+}
