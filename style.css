@@ -114,12 +114,14 @@ margin-left: 50%;
 } */
 /************************************** section 3 *****************************************/
 #section3 {
-  height: 600px;
+  height: 400px;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #0d051c;
+  /* background-image: url(background1.jpg); */
+  background-size: cover;
 }
 .wrapper3 {
   width: 90%;
@@ -140,9 +142,7 @@ margin-left: 50%;
   letter-spacing: 5px;
   margin-bottom: 2rem;
 }
-.about1,
-.about2,
-.about3 {
+.about1 {
   color: #fff;
   letter-spacing: 1px;
   line-height: 30px;
