@@ -1,0 +1,29 @@
+/*========================= Nashik MUN =============================*/
+
+#nmun {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nmun nav .nav-title {
+  text-align: center;
+}
+
+/*========================= Meghalaya MUN =============================*/
+#mmun {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mmun nav .nav-title {
+  text-align: center;
+}
+/*========================= PICT MUN =============================*/
+#pictmun {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pictmun nav .nav-title {
+  text-align: center;
+}

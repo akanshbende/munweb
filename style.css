@@ -9,45 +9,84 @@ margin-left: 50%;
     font-size: 1.5rem;
 } */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Work+Sans:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
 #section1 {
-  height: 300px;
+  height: 100vh;
   width: 100vw;
-  background-image: url(unBuilding.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: #0d051c; */
-
+  flex-direction: column;
+  background-color: #0d051c;
+  border-bottom: 2px solid #fff;
   /* margin-bottom: 2rem; */
 }
+
 .wrapper1 {
+  height: 60%;
+  width: 100%;
+  background-image: url(logo_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   align-items: center;
   justify-content: center;
 }
+/* .main-title {
+  margin: 1rem;
+} */
 .geca {
   font-size: 4rem;
-  font-weight: 400;
+  font-weight: 600;
   font-family: "Poppins";
   /* justify-content: center; */
   /* position:fixed; */
   /* align-content: center; */
+  letter-spacing: 3px;
   text-align: center;
   z-index: 5;
   color: #ffdd01;
   filter: drop-shadow(5px 5px 5px hsl(0deg 0% 0% /0.5));
 }
 .moto1 {
+  margin-top: 1rem;
+}
+.para-1 {
   font-family: "Work Sans";
   text-align: center;
-  font-size: 1.5 rem;
-  letter-spacing: 1.5px;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
   z-index: 10;
-  font-weight: 600;
-  color: black;
+
+  color: rgb(255, 255, 255);
 
   filter: drop-shadow(5px 5px 5px hsl(0deg 0% 0% /0.6));
+}
+.para-2 {
+  font-family: "Work Sans";
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  z-index: 10;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+
+  filter: drop-shadow(5px 5px 5px hsl(0deg 0% 0% /0.6));
+}
+.para-2::before {
+  content: open-quote;
+  vertical-align: top;
+  font-size: 2.5rem;
+  line-height: 0.8;
+}
+.para-2::after {
+  content: close-quote;
+  vertical-align: bottom;
+  font-size: 2.5rem;
+  line-height: 0.8;
 }
 .navbar-custom {
   background-color: rgba(203, 203, 203, 0.8);
@@ -135,7 +174,7 @@ margin-left: 50%;
   /* 
   background-color: #0d051c; */
 
-  backdrop-filter: blur(3px);
+  /* backdrop-filter: blur(3px); */
 }
 .teams-heading {
   margin: 1rem;
