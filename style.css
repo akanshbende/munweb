@@ -14,7 +14,7 @@ margin-left: 50%;
   box-sizing: border-box;
 }
 #section1 {
-  height: 100vh;
+  height: max-content;
   width: 100vw;
 
   display: flex;
@@ -37,6 +37,10 @@ margin-left: 50%;
 }
 .wrapper1 img {
   width: 100%;
+}
+.wrapper1 .icons {
+  justify-content: space-around;
+  margin-bottom: 1rem;
 }
 /* .main-title {
   margin: 1rem;
@@ -117,7 +121,7 @@ margin-left: 50%;
 } */
 /************************************** section 3 *****************************************/
 #section3 {
-  height: 400px;
+  height: 500px;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -147,7 +151,7 @@ margin-left: 50%;
 }
 .about1 {
   color: #fff;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   line-height: 30px;
 }
 /* .about2{
