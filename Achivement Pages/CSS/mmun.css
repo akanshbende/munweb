@@ -1,0 +1,86 @@
+/*===================================HEAD TABLE==========================================*/
+
+section {
+  height: max-content;
+  width: 100vw;
+  background-color: #0d051c;
+}
+
+.wrapper {
+  color: #fff;
+  padding: 1rem;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-title {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about1 {
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 28px;
+  font-weight: 200;
+}
+.about2 {
+  color: #fff;
+  letter-spacing: 1.5px;
+  line-height: 26px;
+  font-weight: 300;
+}
+/* .card-container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+  } */
+.line {
+  border-bottom: 2px solid #fff;
+  width: 100%;
+  margin-left: 0.3rem;
+  /* align-self: center; */
+  /* height: 2px; */
+}
+.gallery-title {
+  text-align: center;
+  font-family: "Poppins";
+  letter-spacing: 2px;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+.awards {
+  align-self: center;
+}
+.awards .card {
+  margin: 1rem;
+}
+.awards .card-text {
+  font-family: "Poppins";
+  color: #0d051c;
+  letter-spacing: 1px;
+  line-height: 2rem;
+
+  text-align: center;
+}
+.card-container .card {
+  margin: 1rem;
+}
+.card-container .card img {
+  background-size: cover;
+}

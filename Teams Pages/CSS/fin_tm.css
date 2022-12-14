@@ -1,0 +1,177 @@
+/*===================================HEAD TABLE==========================================*/
+
+section {
+  height: max-content;
+  width: 100vw;
+  background-color: #0d051c;
+}
+
+.wrapper {
+  color: #fff;
+  padding: 1rem;
+  height: max-content;
+}
+.main-title {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about1 {
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 28px;
+  font-weight: 100;
+}
+
+.goals {
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 30px;
+  font-weight: 100;
+}
+.captain-title {
+  text-align: center;
+  font-family: "Poppins";
+  letter-spacing: 2px;
+  padding-top: 2rem;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+.member-title {
+  text-align: center;
+  font-family: "Poppins";
+  letter-spacing: 2px;
+  padding-top: 2rem;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+.member-title {
+  text-align: center;
+  font-family: "Poppins";
+  letter-spacing: 2px;
+  padding-top: 2rem;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+.member-list ul {
+  padding: 1rem;
+}
+.member-list ul li {
+  margin: 1rem;
+  line-height: 2rem;
+  font-family: "Poppins";
+  letter-spacing: 2px;
+}
+/*------------------------------------------CARDS---------------------------------------------*/
+.card-container {
+  height: max-content;
+  width: 100vw;
+  /* margin-top: 3rem; */
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card1 {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+  background: white;
+
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: all 0.4s;
+  margin: 2rem;
+}
+.card1 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.4s;
+  background-size: cover;
+}
+.card1:hover img {
+  margin-top: -100px;
+}
+.card1:hover {
+  width: 220px;
+  height: 240px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-size: cover;
+}
+.card1::before {
+  content: " Omkar Patil \aSecretary";
+
+  letter-spacing: 0.08rem;
+  position: absolute;
+  bottom: 8px;
+  left: 30px;
+  color: rgb(51, 51, 51);
+  font-size: 1em;
+  font-family: "Poppins" /*'Font Awesome 5 Free'*/;
+  font-weight: 500;
+}
+
+.card2 {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+  background: white;
+
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: all 0.4s;
+  margin: 2rem;
+}
+.card2 img {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.4s;
+}
+.card2:hover img {
+  margin-top: -100px;
+  background-size: cover;
+}
+.card2:hover {
+  width: 220px;
+  height: 240px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.card2::before {
+  content: " Yash Patni \a Deputy Secretary";
+
+  letter-spacing: 0.08rem;
+  position: absolute;
+  bottom: 8px;
+  left: 30px;
+  color: rgb(51, 51, 51);
+  font-size: 1em;
+  font-family: "Poppins" /*'Font Awesome 5 Free'*/;
+  font-weight: 500;
+}
