@@ -12,6 +12,7 @@ section {
   height: max-content;
 }
 .main-title {
+  padding-top: 1rem;
   text-align: center;
   letter-spacing: 2px;
   font-family: "Poppins";
@@ -24,6 +25,7 @@ section {
 }
 
 .about1 {
+  padding-top: 1rem;
   color: #fff;
   letter-spacing: 2px;
   line-height: 28px;
