@@ -54,6 +54,7 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-bottom: 3rem;
 }
 .card1 {
   width: 200px;
