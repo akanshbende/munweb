@@ -7,8 +7,9 @@ section {
 }
 
 .wrapper {
+  width: 100%;
   color: #fff;
-  padding: 1rem;
+
   height: max-content;
 }
 .main-title {
@@ -16,11 +17,7 @@ section {
   letter-spacing: 2px;
   font-family: "Poppins";
   font-weight: 400;
-}
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-top: 1rem;
 }
 
 .about1 {
@@ -28,19 +25,14 @@ section {
   letter-spacing: 2px;
   line-height: 28px;
   font-weight: 100;
+  padding: 1rem;
 }
 
-.goals {
-  color: #fff;
-  letter-spacing: 2px;
-  line-height: 30px;
-  font-weight: 100;
-}
 .captain-title {
   text-align: center;
   font-family: "Poppins";
   letter-spacing: 2px;
-  padding-top: 2rem;
+  padding-top: 1rem;
   text-decoration: underline;
   text-underline-offset: 8px;
 }
@@ -56,7 +48,7 @@ section {
   height: max-content;
   width: 100vw;
   /* margin-top: 3rem; */
-  padding-top: 3rem;
+  padding-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
