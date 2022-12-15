@@ -167,7 +167,7 @@ section {
 
 .card2::before {
   content: "Rasika Bonde \a Deputy Secretary";
-
+  white-space: pre;
   letter-spacing: 0.08rem;
   position: absolute;
   bottom: 8px;
