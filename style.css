@@ -359,11 +359,11 @@ margin-left: 50%;
 }
 .tel {
   text-decoration: none;
-  color: #fff;
+  color: rgb(203, 203, 203);
 }
 .mail {
   text-decoration: none;
-  color: #fff;
+  color: rgb(203, 203, 203);
 }
 /*--------------------------footer--------------------------------*/
 .bottom {
