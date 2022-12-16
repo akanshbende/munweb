@@ -361,6 +361,10 @@ margin-left: 50%;
   text-decoration: none;
   color: #fff;
 }
+.mail {
+  text-decoration: none;
+  color: #fff;
+}
 /*--------------------------footer--------------------------------*/
 .bottom {
   padding: 1rem;
