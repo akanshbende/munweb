@@ -277,6 +277,30 @@ margin-left: 50%;
 /* #section5 .card-img-top img {
   border-radius: 5px;
 } */
+.quotes {
+  width: 100%;
+  font-family: "Work Sans";
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  z-index: 10;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+
+  filter: drop-shadow(5px 5px 5px hsl(0deg 0% 0% /0.6));
+}
+.quotes::before {
+  content: open-quote;
+  vertical-align: top;
+  font-size: 2rem;
+  line-height: 0.8;
+}
+.quotes::after {
+  content: close-quote;
+  vertical-align: bottom;
+  font-size: 2rem;
+  line-height: 0.8;
+}
 /*=========================== SECTION 6============================*/
 #section6 {
   width: 100vw;
@@ -333,7 +357,10 @@ margin-left: 50%;
 .topic {
   font-weight: 700;
 }
-
+.tel {
+  text-decoration: none;
+  color: #fff;
+}
 /*--------------------------footer--------------------------------*/
 .bottom {
   padding: 1rem;
