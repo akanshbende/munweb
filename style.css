@@ -361,6 +361,9 @@ margin-left: 50%;
   text-decoration: none;
   color: rgb(203, 203, 203);
 }
+.phone-details strong {
+  font-size: 0.9rem;
+}
 .mail {
   text-decoration: none;
   color: rgb(203, 203, 203);
