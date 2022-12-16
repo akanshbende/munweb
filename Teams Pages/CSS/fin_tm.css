@@ -118,7 +118,7 @@ section {
   background-size: cover;
 }
 .card1::before {
-  content: " Omkar Patil \aSecretary";
+  content: " Omkar Patil \a Secretary";
   white-space: pre;
   letter-spacing: 0.08rem;
   position: absolute;
