@@ -211,7 +211,6 @@ margin-left: 50%;
   flex-basis: 33.333%;
   flex-grow: 0;
   flex-shrink: 0;
-  overflow-x: auto;
 }
 .card-img-top {
   padding: 1rem;
